@@ -1,0 +1,25 @@
+{
+  "best_version": "v1.0-tox21-fp2smiles-finetuned",
+  "best_model_file": "models/tox21_fp2smiles_finetuned_v1.pt",
+  "best_f1_score": 0.534259,
+  "versions": [
+    {
+      "version": "v1.0-zinc250k-fp2smiles",
+      "model_file": "models/zinc250k_fp2smiles_v1.pt",
+      "validity": 0.8468085106382979,
+      "uniqueness": 0.9798994974874372,
+      "fp_precision": 0.5082792059280944,
+      "fp_recall": 0.44063763978110876,
+      "f1_score": 0.47204757858963464
+    },
+    {
+      "version": "v1.0-tox21-fp2smiles-finetuned",
+      "model_file": "models/tox21_fp2smiles_finetuned_v1.pt",
+      "validity": 0.8723404255319149,
+      "uniqueness": 0.9536585365853658,
+      "fp_precision": 0.614156192046157,
+      "fp_recall": 0.4727575541280038,
+      "f1_score": 0.5342594667264172
+    }
+  ]
+}
