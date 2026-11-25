@@ -1,0 +1,31 @@
+{
+  "best_version": "v1.0-tox21-finetuned",
+  "best_checkpoint": "models/tox21_finetuned_v1.pt",
+  "best_overall_f1": 0.614586,
+  "versions": [
+    {
+      "version": "v1.0-tox21-finetuned",
+      "checkpoint": "models/tox21_finetuned_v1.pt",
+      "validity": 0.952,
+      "safe_rate_unique": 0.7005291005291006,
+      "druglike_rate_unique": 0.8666666666666667,
+      "gen_precision": 0.527,
+      "gen_recall": 0.4957805907172996,
+      "safe_drug_gen_f1": 0.5109138239019139,
+      "heldout_token_f1": 0.7182589068793483,
+      "overall_version_f1": 0.6145863653906312
+    },
+    {
+      "version": "v1.0-zinc250k",
+      "checkpoint": "models/zinc250k_pretrained_v1.pt",
+      "validity": 0.884,
+      "safe_rate_unique": 0.4117647058823529,
+      "druglike_rate_unique": 0.9309954751131222,
+      "gen_precision": 0.352,
+      "gen_recall": 0.2320675105485232,
+      "safe_drug_gen_f1": 0.27972027972027974,
+      "heldout_token_f1": 0.6491655861326276,
+      "overall_version_f1": 0.46444293292645367
+    }
+  ]
+}
